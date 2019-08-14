@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--My Places-->
         <scene sceneID="LTl-6C-3XI">
             <objects>
                 <tableViewController id="Gns-HW-hGO" customClass="MainViewController" customModule="MyPlaces" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <outlet property="delegate" destination="Gns-HW-hGO" id="Grd-gL-jzr"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="c2o-pf-mQj"/>
+                    <navigationItem key="navigationItem" title="My Places" id="c2o-pf-mQj"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mb5-23-T0I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,6 +43,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yo6-2e-EO6">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="29"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="Gns-HW-hGO" kind="relationship" relationship="rootViewController" id="enP-Vi-opD"/>
