@@ -11,7 +11,7 @@
         <scene sceneID="LTl-6C-3XI">
             <objects>
                 <tableViewController id="Gns-HW-hGO" customClass="MainViewController" customModule="MyPlaces" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6UY-xE-cTk">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6UY-xE-cTk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -108,7 +108,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="FIm-MU-2H0">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="250.00000000000006"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -236,13 +236,21 @@
                     <navigationItem key="navigationItem" title="New Place" id="s3V-33-TZl">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PzE-Rb-AhF">
                             <connections>
-                                <segue destination="B2h-o5-6Av" kind="unwind" unwindAction="canceAction:" id="aUo-pe-MSz"/>
+                                <action selector="cancelAction:" destination="lx4-h9-fNU" id="AZN-M4-7gJ"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="yVs-eN-3HY"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="yVs-eN-3HY">
+                            <connections>
+                                <segue destination="B2h-o5-6Av" kind="unwind" unwindAction="unwindSegue:" id="r79-KK-1yU"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="imageOfPlace" destination="FIm-MU-2H0" id="cS1-fx-jwp"/>
+                        <outlet property="placeImage" destination="FIm-MU-2H0" id="cS1-fx-jwp"/>
+                        <outlet property="placeLocation" destination="83t-NP-2It" id="Moe-IE-txl"/>
+                        <outlet property="placeName" destination="JBW-bs-4Kz" id="hVM-YI-bFS"/>
+                        <outlet property="placeType" destination="3HL-yc-CCZ" id="jpy-Hx-LVs"/>
+                        <outlet property="saveButton" destination="yVs-eN-3HY" id="y8C-dX-oYl"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tQ9-A7-JwK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

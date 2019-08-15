@@ -6,14 +6,15 @@
 //  Copyright © 2019 Ruslan Latfulin. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct Place {
     
     var name: String
-    var location: String
-    var type: String
-    var image: String
+    var location: String?
+    var type: String?
+    var image: UIImage?
+    var restaurantImage: String?
     
     static let restaurantName = [
             "Burger Heroes", "Kitchen", "Bonsai",
@@ -27,7 +28,7 @@ struct Place {
         var places = [Place]()
         
         for restaurant in restaurantName {
-            places.append(Place(name: restaurant, location: "Kobrin", type: "Bar", image: restaurant))
+            places.append(Place(name: restaurant, location: "Kobrin", type: "Bar", image: nil, restaurantImage: restaurant))
         }
         
         return places
