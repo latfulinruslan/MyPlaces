@@ -14,6 +14,7 @@
 		BCE6C26A22F4897300071338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE6C26822F4897300071338 /* Main.storyboard */; };
 		BCE6C26C22F4897400071338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE6C26B22F4897400071338 /* Assets.xcassets */; };
 		BCE6C26F22F4897400071338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE6C26D22F4897400071338 /* LaunchScreen.storyboard */; };
+		BCF4FDBA23059DF600152C37 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF4FDB923059DF600152C37 /* NewPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BCE6C26B22F4897400071338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE6C26E22F4897400071338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCE6C27022F4897400071338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF4FDB923059DF600152C37 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				BCE6C26422F4897300071338 /* AppDelegate.swift */,
 				BCB1D07522F9964800F83ABF /* MainViewController.swift */,
+				BCF4FDB923059DF600152C37 /* NewPlaceViewController.swift */,
 				BC549F92230577C0000C16F3 /* PlaceModel.swift */,
 				BCB1D0772304AD6700F83ABF /* CustomTableViewCell.swift */,
 				BCE6C26822F4897300071338 /* Main.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				BCB1D0782304AD6700F83ABF /* CustomTableViewCell.swift in Sources */,
 				BC549F93230577C0000C16F3 /* PlaceModel.swift in Sources */,
+				BCF4FDBA23059DF600152C37 /* NewPlaceViewController.swift in Sources */,
 				BCE6C26522F4897300071338 /* AppDelegate.swift in Sources */,
 				BCB1D07622F9964800F83ABF /* MainViewController.swift in Sources */,
 			);
