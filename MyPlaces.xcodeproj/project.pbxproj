@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC549F93230577C0000C16F3 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC549F92230577C0000C16F3 /* PlaceModel.swift */; };
 		BCB1D07622F9964800F83ABF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB1D07522F9964800F83ABF /* MainViewController.swift */; };
 		BCB1D0782304AD6700F83ABF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB1D0772304AD6700F83ABF /* CustomTableViewCell.swift */; };
 		BCE6C26522F4897300071338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE6C26422F4897300071338 /* AppDelegate.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC549F92230577C0000C16F3 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		BCB1D07522F9964800F83ABF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BCB1D0772304AD6700F83ABF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		BCE6C26122F4897300071338 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +60,7 @@
 			children = (
 				BCE6C26422F4897300071338 /* AppDelegate.swift */,
 				BCB1D07522F9964800F83ABF /* MainViewController.swift */,
+				BC549F92230577C0000C16F3 /* PlaceModel.swift */,
 				BCB1D0772304AD6700F83ABF /* CustomTableViewCell.swift */,
 				BCE6C26822F4897300071338 /* Main.storyboard */,
 				BCE6C26B22F4897400071338 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCB1D0782304AD6700F83ABF /* CustomTableViewCell.swift in Sources */,
+				BC549F93230577C0000C16F3 /* PlaceModel.swift in Sources */,
 				BCE6C26522F4897300071338 /* AppDelegate.swift in Sources */,
 				BCB1D07622F9964800F83ABF /* MainViewController.swift in Sources */,
 			);
